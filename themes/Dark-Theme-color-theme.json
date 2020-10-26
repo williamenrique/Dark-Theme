@@ -6,7 +6,13 @@
 		"editor.foreground": "#dfdfdf",
 		"activityBarBadge.background": "#006ab1",
 		"sideBarTitle.foreground": "#bbbbbb",
-		"sideBar.background": "#131313"
+		"sideBar.background": "#131313",
+		"list.activeSelectionForeground": "#b6f30d",
+		"list.activeSelectionBackground": "#5d70a7",
+		"tab.inactiveForeground": "#cec9e9",
+		"tab.activeBackground": "#262A33",
+		"tab.inactiveBackground": "#23262E",
+		"tab.activeForeground": "#00e8c6"
 	},
 	"tokenColors": [
 		{
