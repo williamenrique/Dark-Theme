@@ -1,0 +1,21 @@
+{
+    "name": "Dark-Theme",
+    "displayName": "Dark-theme",
+    "description": "Mi tema de VSC",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark-Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark-Theme-color-theme.json"
+            }
+        ]
+    }
+}
