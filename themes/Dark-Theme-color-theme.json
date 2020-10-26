@@ -2,10 +2,11 @@
 	"name": "Dark-Theme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#18181d",
-		"editor.foreground": "#dddfe2",
+		"editor.background": "#0f0f13",
+		"editor.foreground": "#dfdfdf",
 		"activityBarBadge.background": "#006ab1",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBar.background": "#131313"
 	},
 	"tokenColors": [
 		{
@@ -13,6 +14,23 @@
 			"scope": ["comment", "markup.quote.markdown", "meta.diff", "meta.diff.header"],
 			"settings": {
 				"foreground": "#8d8689"
+			}
+		},
+		{
+			//variables en php y javascript
+			//funciones javascript
+			"name": "Variables",
+			"scope": ["variable", "string constant.other.placeholder"],
+			"settings": {
+				"foreground": "#0b51a1"
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": ["keyword", "storage.type", "storage.modifier"],
+			"settings": {
+				"foreground": "#2980b9",
+				"fontStyle": "bold"
 			}
 		},
 		{
